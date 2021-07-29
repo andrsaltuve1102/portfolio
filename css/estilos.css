@@ -6,6 +6,11 @@ h1{
     color: #E20000;
     font-size: 36px;
 }
+#sobre-mi h2{
+    color: #E20000;
+    font-size: 36px;
+}
+
 
 p{
     color: #6a6a6a;
@@ -33,6 +38,13 @@ input, textarea{
     background-size: 100%;
     background-repeat: no-repeat;   
 }
+#sobre-mi{
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: 100%;
+    background-repeat: no-repeat;   
+}
+
+
 
 #proyectos img{
     height: 210px;
@@ -180,7 +192,7 @@ footer.fa-linkedin-in{
 
 
     #inicio.cohete:hover {
-        height: 410px;
+        height: 210px;
     }
 
     .cohete{
