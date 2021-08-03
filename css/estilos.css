@@ -41,7 +41,7 @@ border: 1px solid #E20000;
 border-radius: 20px;
 }
 
-#inicio .div-cohete{
+#inicio .cohete1{
 height: 410px;
 }
 
@@ -53,7 +53,7 @@ height: 400px;
 height: 410px;
 }
 
-#inicio .input-home p{
+#inicio .boton-mensaje-inicio p{
 color:white;
 font-size: 17px;
 border: 1px solid white;
@@ -75,26 +75,19 @@ height: 182px;
 border-radius: 15px;
 }
 
+#idioma h2{
+font-size: 16px;
+font-weight: 600px;
+} 
+
 #idioma .card{
-background-color: #370A6D;
+background-color: red;
 border-radius: 15px;
 padding: 40px 0;
 }
 
 #idioma{
 background-color: #eee;
-}
-
-#idioma h2{
-font-size: 16px;
-font-weight: 600px;
-}
-
-#idioma ul{
-padding: 0px;
-font-size: 14px;
-color: #282828;
-list-style-type: none;
 }
 
 #idioma .fas{
@@ -111,8 +104,11 @@ font-weight: 400;
 font-size: 24px
 }
 
-#formacion h2, #formacion h4{
-color: #E20000;
+#idioma ul{
+padding: 0px;
+font-size: 14px;
+color: #282828;
+list-style-type: none;
 }
 
 #experiencias h3, #formacion h3{
@@ -123,8 +119,12 @@ font-weight: 600;
 
 #experiencias h4, #formacion h4{
 font-size: 17px;
-
 }
+
+#formacion h2, #formacion h4{
+color: #E20000;
+}
+
 #experiencias h5, #formacion h5{
 color: #6A6A6A;
 font-size: 14px;
@@ -140,18 +140,17 @@ background-size: 100%;
 height: 90px
 }
 
-#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a{
+#proyectos footer .fa-linkedin-in{
+color: white;
+background-color: #E20000;
+}
+#proyectos footer, #proyectos footer a{
 color: #E20000;
 }
 
 #proyectos footer .fa-github, #sobre-mi footer .fa-github{
 font-size: 30px;
 color: #E20000;
-}
-
-#proyectos footer .fa-linkedin-in{
-color: white;
-background-color: #E20000;
 }
 
 #proyectos h2{
@@ -162,6 +161,10 @@ padding: 0px;
 margin: 0px;
 }
 
+#sobre-mi footer, #sobre-mi footer a{
+color: #E20000;
+}
+
 #proyectos p{
 font-size: 14px;
 }
@@ -170,12 +173,17 @@ font-size: 14px;
 height: 177px;
 }
 
-#contacto, #inicio {
+#contacto{
+background-image: url(../images/fondo-contacto.png);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+#inicio {
 background-image: url(../images/fondo-contacto.png);
 background-size: 120%;
 background-repeat: no-repeat;
 }
-
 
 #proyectos h2 {
 font-size: 16px;
@@ -233,22 +241,21 @@ background-color: white;
 border: none;
 }
 
-.btn-rojo{
+.boton-rojo{
 background-color: #E20000;
 color: white;
 font-weight: 100;
 border-radius: 15px;
 }
-
-.link-rojo a{
-color: #E20000;
-text-decoration: none;
-}
-
 .btn:hover{
 color: white;
 background-color:#370a6d;
 }
+
+.link-rojo, a{
+    color: #E20000;
+    text-decoration: underline;
+    }
 
 footer, footer a{
 color: white;
@@ -257,7 +264,7 @@ font-weight: 100;
 
 footer .fa-github{
 font-size: 30px;
-color: red;
+color:white;
 }
 
 footer .fa-linkedin-in{
@@ -301,28 +308,7 @@ bottom: 0px;
 }
 
 .whatsapp a{
-    color: white;
-}
-
-@media (max-width: 750px) { /* Se usa para Teléfonos móviles */
-
-    #inicio, #contacto {
-        background-image: url(../images/fondo-proyectos.png);
-    }
-
-    #inicio .input-home p {
-        color: #E20000;
-        border: 1px solid #E20000;
-    }
-
-    #contacto {
-        background-image: url(../images/fondo-proyectos.png);
-    }
-
-    footer a{
-    color: #E20000;
-    }
-
+color: white;
 }
 
 .qr{
@@ -336,6 +322,30 @@ bottom: 0px;
     height: 50%;
     margin-top: 10px;
 }
+
+@media (max-width: 750px) { /* Se usa para Teléfonos móviles */
+
+    #inicio, #contacto{
+        background-image: url(../images/fondo-proyectos.png);
+        background-size: 100% ;
+    }
+
+    #inicio .boton-mensaje-inicio p{
+        color: #E20000;
+        border: 1px solid #E20000;
+    }
+
+    #contacto{
+        background-image: url(../images/fondo-proyectos.png);
+    }
+
+    footer a{
+    color: #E20000;
+    }
+
+}
+
+
 
 
 
