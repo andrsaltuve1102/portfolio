@@ -23,10 +23,7 @@ color:#282828;
 font-weight: 300;
 }
 
-input, textarea, .btn {
-border-radius: 15px !important;
-margin-top: 15px;
-}
+
 
 textarea{
 height: 150px;
@@ -95,7 +92,7 @@ font-size: 80px;
 color: white;
 }
 
-#experiencias h2, #experiencias h4 {
+#experiencias h2{
 color: #E20000;
 }
 
@@ -119,6 +116,10 @@ font-weight: 600;
 
 #experiencias h4, #formacion h4{
 font-size: 17px;
+}
+
+#experiencias h4 {
+color: #E20000;
 }
 
 #formacion h2, #formacion h4{
@@ -209,9 +210,14 @@ padding: 10px;
 border-radius: 50%;
 }
 
+input, textarea, .btn {
+border-radius: 15px !important;
+margin-top: 15px;
+}
+
 .img-fluid {
-max-width: 100%;
 height: 70%;
+max-width: 100%;
 }
 
 .baw {
@@ -237,25 +243,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', end
 
 .btn {
 color: #370a6d;
-background-color: white;
 border: none;
+background-color: white;
+
 }
 
 .boton-rojo{
+font-weight: 100;
 background-color: #E20000;
 color: white;
-font-weight: 100;
 border-radius: 15px;
 }
+
 .btn:hover{
 color: white;
 background-color:#370a6d;
 }
 
 .link-rojo, a{
-    color: #E20000;
-    text-decoration: underline;
-    }
+color: #E20000;
+text-decoration: underline;
+}
 
 footer, footer a{
 color: white;
